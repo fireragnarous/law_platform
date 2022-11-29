@@ -1,0 +1,2 @@
+name,description,col_type,sort_order,database,cluster,schema,table_name,badges
+transcription,1,longtext,3,mysql,def,funsd,funsd_train,train_description

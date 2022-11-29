@@ -1,0 +1,2 @@
+name,category,database,cluster,schema,table_name
+mysqltest2,table_status,mysql,def,amundsen,license
