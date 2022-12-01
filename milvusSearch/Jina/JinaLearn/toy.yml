@@ -1,0 +1,29 @@
+#toy.yml
+jtype: Flow
+with:
+  port: 51258
+  protocol: grpc
+executors:
+- uses: FooExecutor
+  name: foo
+  py_modules:
+    - test.py
+- uses: BarExecutor
+  name: bar
+  py_modules:
+    - test.py
+
+## toy.yml
+#jtype: Flow
+#with:
+#  port: 51280
+#  protocol: grpc
+#executors:
+#- uses: FooExecutor
+#  name: foo
+#  py_modules:
+#    - test.py
+#- uses: BarExecutor
+#  name: bar
+#  py_modules:
+#    - test.py
