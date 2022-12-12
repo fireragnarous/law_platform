@@ -1,0 +1,11 @@
+source:
+  type: mysql
+  config:
+     host_port: localhost:2023
+     database: funsd
+     username: root
+     password: Lst990808!
+sink:
+  type: datahub-rest
+  config:
+        server: http://localhost:58080

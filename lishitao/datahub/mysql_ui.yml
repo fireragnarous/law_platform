@@ -1,0 +1,15 @@
+source:
+    type: mysql
+    config:
+        include_tables: true
+        database: funsd
+        password: Lst990808!
+        profiling:
+            enabled: true
+            profile_table_level_only: false
+        host_port: '10.4.96.38:2023'
+        include_views: true
+        stateful_ingestion:
+            enabled: true
+        username: root
+pipeline_name: 'urn:li:dataHubIngestionSource:6e02782e-137e-47e9-81b8-8e184a76586c'
