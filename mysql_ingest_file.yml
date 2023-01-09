@@ -1,0 +1,11 @@
+source:
+  type: mysql
+  config:
+     host_port: localhost:5200
+     database: client_database
+     username: client_username
+     password: client_passwort
+sink:
+  type: "datahub-rest"
+  config:
+        server: http://localhost:58080
